@@ -42,7 +42,7 @@ const Nav = () => {
           </ul>
        
           <div >
-            {/* {user && user.email} */}
+            {user && user.email}
             <br />
             <button onClick={handleLogOut}>Logout</button>
           </div>  
