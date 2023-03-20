@@ -19,7 +19,7 @@ const [password, setPassword] = useState("");
 const {login} = useUserAuth();
   const [error, setError] = useState("");
 const navigate = useNavigate();
-const {logIn, googleSignIn} = useUserAuth();
+const { googleSignIn} = useUserAuth();
 
 const handleSubmit = async (e) => {
     e.preventDefault();
