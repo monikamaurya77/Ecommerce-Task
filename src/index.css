@@ -1,0 +1,146 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+ box-sizing: border-box;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+
+.active{
+  border-bottom: 3px solid red;
+}
+
+a{
+  text-decoration: none;
+}
+
+.contact-header{
+  color:red;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.img{
+  height: 100vh;
+  width: 50vw;
+}
+
+.login-page{
+  padding-top: 7rem;
+}
+
+button{
+  padding: .6rem 2rem;
+  background-color: #d430b4;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+.acc{
+  margin-left: 6rem;
+  background-color: white;
+  border: 1px solid #d430b4;
+}
+.create-acc{
+  text-decoration: none;
+  color: #d430b4;
+}
+
+.acc1{
+  background-color: white;
+  border: 1px solid #d430b4;
+}
+
+.ul {
+  display: flex;
+  gap: 6rem;
+  text-decoration: none;
+}
+
+.li{
+  justify-items: end; 
+}
+
+.nav-items{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  align-items: center;
+  justify-content: end;
+}
+
+.heading{
+  margin-top:15%;
+  font-size: 4rem;
+}
+
+.home-section{
+  text-align: center;
+}
+
+.table-heading{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+
+.t-header{
+  background-color: black;
+  color: white;
+  width: 98vw;
+  padding: 1rem;
+}
+
+.t-body{
+  width: 98vw;
+  gap: 2;
+}
+
+.t-body:hover{
+  background-color: rgb(247, 243, 237);
+}
+
+.product{
+  text-decoration: none;
+  color: white;
+}
+
+.product:hover{
+  color: white;
+}
+
+.product-name-card{
+  background-color: black;
+  justify-content: left;
+  width: 20%;
+  height: 60vh;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 1.7rem;
+}
+
+.product-container{
+  display: flex;
+  margin-top: 3rem;
+}
+
+.product-detail-card{
+  justify-content: right;
+  width: 80%;
+  height: 60vh;
+  padding: 3rem;
+  font-size: 1.7rem;
+}
+
+.product-detail{
+  text-decoration: none;
+  color: black;
+}
+
+.product-detail:hover{
+  color: black;
+}
+
